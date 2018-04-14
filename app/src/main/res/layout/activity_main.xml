@@ -26,12 +26,21 @@
                 android:textSize="20sp"
                 android:layout_marginRight="15dp"/>
             <SeekBar
-                android:layout_width="match_parent"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/id_sb_red"
                 android:progress="128"
                 android:max="255"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/tvRed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="125"
+                android:textAlignment="center"
+                />
 
 
         </LinearLayout>
@@ -50,13 +59,20 @@
                 android:textSize="20sp"
                 android:layout_marginRight="15dp"/>
             <SeekBar
-                android:layout_width="match_parent"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/id_sb_verde"
                 android:progress="128"
                 android:max="255"
                 android:layout_gravity="center"/>
 
+            <TextView
+                android:id="@+id/tvGreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="125"
+                android:textAlignment="center"
+                />
 
         </LinearLayout>
 
@@ -74,13 +90,20 @@
             android:textSize="20sp"
             android:layout_marginRight="15dp"/>
         <SeekBar
-            android:layout_width="match_parent"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:id="@+id/id_sb_azul"
             android:progress="128"
             android:max="255"
             android:layout_gravity="center"/>
 
+                <TextView
+                    android:id="@+id/tvBlue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="125"
+                    android:textAlignment="center"
+                    />
 
     </LinearLayout>
 
@@ -98,12 +121,20 @@
                 android:textSize="20sp"
                 android:layout_marginRight="15dp"/>
             <SeekBar
-                android:layout_width="match_parent"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/id_sb_alpha"
                 android:progress="128"
                 android:max="255"
                 android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/tvAlpha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="125"
+                android:textAlignment="center"
+                />
 
 
         </LinearLayout>
